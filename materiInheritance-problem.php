@@ -50,5 +50,6 @@ class CetakInfoProduk
 $produk1 = new produk("Naruto", "Shounen Jump", "30000", "Masashi Kishimoto", 100, 0, "Komik");
 $produk2 = new produk("Dota2", "Valve", "240000", "IceFrog", 0, 2400, "Game");
 
-//Komik : Naruto | Misasi Kishimoto, Shonen Jump (Rp 30.000) - 100 halaman
-//Game : Dota 2 | IceFrog, Valve (240000) - 60 menit
+echo $produk1->getInfoLengkap();
+echo "<br>";
+echo $produk2->getInfoLengkap();
